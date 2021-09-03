@@ -1,8 +1,8 @@
 # Frontend Mentor - Fylo dark theme landing page
 
-# Amirhossein 
+# Amirhossein Mazaheri
 
-### Techs that I used : my own framework, flexbox, grid
+### Techs that I used : my own framework, flexbox, grid, sass
 
 ### my own framework git repo : https://github.com/LightSpeedGuy/LightBoot.git
 
