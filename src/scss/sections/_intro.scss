@@ -1,0 +1,15 @@
+#wave {
+    .mb {
+        @include mediaQueryUp(md) {
+            display: none;
+        }
+    }
+
+    .ds {
+        display: none;
+
+        @include mediaQueryUp(md) {
+            display: block;
+        }
+    }
+}

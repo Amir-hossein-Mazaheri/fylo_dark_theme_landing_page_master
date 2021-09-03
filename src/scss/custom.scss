@@ -1,0 +1,28 @@
+$breakPoints: (
+    sm: 375px,
+    md: 1440px,
+);
+
+$themeColors: (
+    primary: hsl(217, 28%, 15%), // intro and email sign up
+    secondary: hsl(218, 28%, 13%), // main back
+    tertiary : hsl(216, 53%, 9%), // footer
+    quaternary : hsl(219, 30%, 18%), // testimonials
+    blue : hsl(176, 68%, 64%),
+    cyan : hsl(198, 60%, 50%),
+    light: #ecf0f1,
+    dark: #34495e,
+    white: hsl(0, 0%, 100%),
+    black: #000,
+);
+
+$rootColorVariablePrefix: "clr";
+
+.navbar-logo {
+    top: unset !important;
+    bottom: 10% !important;
+    transform: none !important;
+}
+
+$formInputShadowColorOnFocus : rgba(map-get($themeColors, white), 0.3);
+

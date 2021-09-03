@@ -1,0 +1,41 @@
+//adds poppins font!
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+.heavy {
+    font-weight: 700;
+}
+
+.medium {
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.lh-st {
+    line-height: 1.7;
+}
+
+a {
+    color : map-get($map: $themeColors, $key: cyan);
+    display: inline-block;
+}
+
+.link {
+    margin-top: 0.7rem;
+
+    &::after {
+        content: '';
+        display: block;
+        width : 100%;
+        height: 2px;
+        margin-top: 0.2rem;
+        background : map-get($map: $themeColors, $key: cyan);
+        
+    }
+}

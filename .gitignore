@@ -7,5 +7,5 @@ files!
 node_modules
 package.json
 package-lock.json
-src
 design
+src/vendors

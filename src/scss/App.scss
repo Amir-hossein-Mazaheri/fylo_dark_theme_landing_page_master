@@ -1,0 +1,21 @@
+//adds custom properties
+@import 'custom';
+
+//adds LightBoot
+@import '../vendors/LightBoot/scss/LightBoot';
+
+//adds components
+@import 'components/typography';
+
+//adds sections
+@import 'sections/intro';
+@import 'sections/testimonials';
+@import 'sections/footer';
+
+
+*,
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    direction: ltr;
+}

@@ -1,0 +1,39 @@
+#footer {
+    padding-top: 10rem !important;
+
+    .access {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        padding: 2em 2.3em;
+        max-width: 800px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba($color: #000000, $alpha: .4);
+
+        p {
+            font-size: 0.73rem;
+            line-height: 1.7;
+        }
+    }
+
+    .socials>* {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        line-height: 0;
+        overflow: hidden;
+        margin: 0 0.3rem;
+        border-radius: 90px;
+        padding: 0.3rem;
+        border: 1px solid map-get($map: $themeColors, $key: white);
+
+        &>* {
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
